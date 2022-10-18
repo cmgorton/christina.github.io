@@ -26,4 +26,4 @@ theme:
     - tables
     - attr_list
   plugins:
-    - search
+    - search 
