@@ -25,15 +25,5 @@ theme:
   markdown_extensions:
     - tables
     - attr_list
-    - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-
-  extra:
-    social:
-      - icon: fontawesome/brands/twitter 
-        link: https://twitter.com/coffeecraftcode
-      - icon: fontawesome/brands/github
-        link: https://github.com/cmgorton  
-      - icon: fontawesome/brands/linkedin
-        link: https://www.linkedin.com/in/christinagorton/
+  plugins:
+    - search
